@@ -114,7 +114,7 @@ def del_cliente(query: ClienteBuscaSchema):
 
 # Edita o cliente
 @app.put('/cliente', tags=[cliente_tag],
-         responses={'200': ClienteViewSchema})
+         responses={'200': ClienteViewSchema}, methods=['PUT'])
 def update_cliente():
     '''
     Atualiza as informações de um cliente existente

@@ -145,7 +145,7 @@ const resetForm = () => {
 const insertList = (id, nome, data_nasc, email, celular, instrumentos) => {
   const table = document.getElementById('clientTable');
   const row = table.insertRow();
-  const item = [id, nome, data_nasc, email, celular, instrumentos];
+  const item = [nome, data_nasc, email, celular, instrumentos];
 
   item.forEach(text => {
     const cell = row.insertCell();
