@@ -16,8 +16,8 @@ Antes de começar, certifique-se de ter os seguintes requisitos instalados:
 ### 1. Clonando o repositório
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone https://github.com/joaovitorfrv/Engenharia-de-Software-MVP-Sprint-1
+cd Engenharia-de-Software-MVP-Sprint-1
 ```
 
 ### 2. Criando e ativando o ambiente virtual
