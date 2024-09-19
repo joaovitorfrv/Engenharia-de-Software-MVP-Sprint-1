@@ -210,7 +210,7 @@ const searchClient = () => {
   const rows = table.getElementsByTagName('tr');
 
   for (let i = 1; i < rows.length; i++) {
-    const nameCell = rows[i].getElementsByTagName('td')[1];
+    const nameCell = rows[i].getElementsByTagName('td')[0];
     if (nameCell) {
       const txtValue = nameCell.textContent || nameCell.innerText;
       rows[i].style.display = txtValue.toLowerCase().includes(input) ? "" : "none";
