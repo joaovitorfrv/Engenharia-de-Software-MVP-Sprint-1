@@ -57,7 +57,7 @@ pip install -r requirements.txt
 Navegue até o diretório `app_api` e execute o servidor Flask:
 
 ```bash
-cd app_api
+cd app_back_end
 flask run --host 0.0.0.0 --port 5000
 ```
 
